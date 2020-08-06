@@ -1,0 +1,25 @@
+<html>
+<head>
+<script type="text/javascript" src="jquery.js"></script>
+<link rel="stylesheet" href="main.css" />
+</head>
+<body>
+<div id="main-box">
+
+would you like to take test? 
+<img src="click.jpg" id="test"/>
+<br>
+<br>
+<br>
+
+
+
+
+
+<img src="1_img.jpg" id="main-image"/>
+<table>
+<tr><td><h3 align="center"><p>Career Train - School2College</p></h3></td>
+<td><a href="2.html"><img src="next.png" id="next-img"></a></td></tr>
+</div>
+</body>
+</html>

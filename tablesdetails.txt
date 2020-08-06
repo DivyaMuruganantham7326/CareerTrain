@@ -1,0 +1,69 @@
+create table colleges(id number(5), name varchar2(20), location varchar2(20), state varchar2(20), stream varchar2(20), rank number(5));
+create table courses(id number(5), stream varchar2(20), courses varchar2(20), desc varchar2(20));
+create table streams(id number(5), stream varchar2(20));
+
+
+insert into colleges values(1,'vit','india','vellore','Engineering',1);
+insert into colleges values(2,'amrita','india','coimbatore','Architecture',2);
+insert into colleges values(3,'srm','india','chennai','Law',3);
+insert into colleges values(4,'uhcl','usa','texas','Dental',4);
+insert into colleges values(5,'uh','usa','texas','Veterinary ',5);
+insert into colleges values(6,'utd','usa','texas','Management',6);
+insert into colleges values(7,'neu','usa','massachusets','Hotel Management',7);
+insert into colleges values(8,'utsa','usa','texas','Marine',8);
+insert into colleges values(9,'uta','usa','texas','Nursing',9);
+insert into colleges values(10,'bu','usa','massachusets','Air Hostess',10);
+insert into colleges values(11,'mit','usa','massachusets','Mass Media',11);
+insert into colleges values(12,'harvard','usa','massachusets','Pharmacy',12);
+insert into colleges values(13,'oxford','europe','england','Homeopathy',13);
+insert into colleges values(14,'nwu','usa','california','Ayurvedic',14);
+insert into colleges values(15,'asu','usa','arizona','Naturopathy',15);
+insert into colleges values(16,'du','usa','denver','Teacher Training',16);
+insert into colleges values(17,'tamu','usa','texas','Defence',17);
+insert into colleges values(18,'nyu','usa','newyork','Sidda',18);
+insert into colleges values(19,'nju','usa','newjersey','Nutrition',19);
+insert into colleges values(20,'asu','usa','arizona','Medical',20);
+
+
+insert into courses values(1,'Engineering','mechanical','mechanical');
+insert into courses values(2,'Architecture','engineering','engineering');
+insert into courses values(3,'Law','maths','maths');
+insert into courses values(4,'Dental','science','science');
+insert into courses values(5,'Veterinary ','physics','physics');
+insert into courses values(6,'Management','chemistry','chemistry');
+insert into courses values(7,'Hotel Management','commerce','commerce');
+insert into courses values(8,'Marine','games','games');
+insert into courses values(9,'Nursing','cooking','cooking');
+insert into courses values(10,'Air Hostess','manager','manager');
+insert into courses values(11,'Mass Media','electrical','electrical');
+insert into courses values(12,'Pharmacy','electronics','electronics');
+insert into courses values(13,'Homeopathy','mba','mba');
+insert into courses values(14,'Ayurvedic','mtech','mtech');
+insert into courses values(15,'Naturopathy','ms','ms');
+insert into courses values(16,'Teacher Training','mca','mca');
+insert into courses values(17,'Defence','me','me');
+insert into courses values(18,'Sidda','ma','ma');
+insert into courses values(19,'Nutrition','mbbs','mbbs');
+insert into courses values(20,'Medical','dental','dental');
+
+
+insert into streams values(1,'Engineering');
+insert into streams values(2,'Architecture');
+insert into streams values(3,'Law');
+insert into streams values(4,'Dental');
+insert into streams values(5,'Veterinary ');
+insert into streams values(6,'Management');
+insert into streams values(7,'Hotel Management');
+insert into streams values(8,'Marine');
+insert into streams values(9,'Nursing');
+insert into streams values(10,'Air Hostess');
+insert into streams values(11,'Mass Media');
+insert into streams values(12,'Pharmacy');
+insert into streams values(13,'Homeopathy');
+insert into streams values(14,'Ayurvedic');
+insert into streams values(15,'Naturopathy');
+insert into streams values(16,'Teacher Training');
+insert into streams values(17,'Defence');
+insert into streams values(18,'Sidda');
+insert into streams values(19,'Nutrition');
+insert into streams values(20,'Medical');
